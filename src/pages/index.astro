@@ -1,11 +1,26 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Badge from '../components/Badge.astro';
 import Card from '../components/Card.astro';
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
-		<h1>Porfolio</h1>
+		<section class="w-full lg:w-[740px] mx-auto py-44">
+		<h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-10">
+			Hey, I'm Enner <a
+							href="https://www.linkedin.com/in/ennerescobedo"
+							target="_blank"
+							rel="noopener"
+							class="flex justify-center items-center">
+			<Badge>Available for hire!</Badge>
+			</a>
+		</h1>
+		<h2 class="text-xl opacity-80">
+			+14 years of experience. Web and mobile developer. I'm from Guatemala, Guatemala. Especializado en crear aplicaciones unicas
+		</h2>
+		<ul></ul>
+		</section>
 	</main>
 </Layout>
 
